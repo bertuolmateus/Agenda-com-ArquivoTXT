@@ -99,9 +99,7 @@ public class Main {
         try {
             FileReader arq = new FileReader("c:\\temp\\dados.txt");
             BufferedReader lerArq = new BufferedReader(arq);
-            String linha = lerArq.readLine(); // lê a primeira linha
-            // a variável "linha" recebe o valor "null" quando o processo
-            // de repetição atingir o final do arquivo texto
+            String linha = lerArq.readLine(); 
 
             while (linha != null) {
                 Contato contato = new Contato();
